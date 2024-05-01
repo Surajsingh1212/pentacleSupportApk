@@ -5,24 +5,24 @@ const menuItems = [
     screen: 'Home'
 },
 {
-    label: 'Clients',
-    icon: 'account-child-circle',
-    screen: 'Client'
-},
-{
-    label: 'Add Client',
-    icon: 'account-plus',
-    screen: 'AddClient'
-},
-{
-    label: 'View Ticket',
+    label: 'Generate Case',
     icon: 'apple-keyboard-command',
+    screen: 'AddTicket'
+},
+{
+    label: 'View Case',
+    icon: 'album',
     screen: 'ViewTicket'
 }, 
 {
-    label: 'Add Ticket',
-    icon: 'album',
-    screen: 'AddTicket'
+    label: 'View Activity',
+    icon: 'account-child-circle',
+    screen: 'ViewActivity'
+},
+{
+    label: 'Change Password',
+    icon: 'lock',
+    screen: 'ChangePassword'
 },
 {
     label: 'Profile',

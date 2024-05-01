@@ -27,7 +27,7 @@ const AddTicket = ({ navigation }) => {
   return (
     <View className="flex-1">
       <CustomHeader title="CreateJob" navigation={navigation} notificationCount={3} />
-      <View className="flex flex-1 justify-center items-center bg-cyan-500">
+      <View className="flex flex-1 justify-center items-center bg-[#c7c5c5]">
         <View className="relative flex justify-center items-center z-40">
           <Image
             source={require("../../assets/alerts/alerts.png")}
@@ -108,7 +108,7 @@ const AddTicket = ({ navigation }) => {
               <Text className="text-lg text-slate-700">Product Category*</Text>
               <View>
                 <Dropdown
-                  className={`h-14 bg-white rounded-xl px-2 py-4 my-2 ${isFocus ? 'border-cyan-500' : ''}`}
+                  className={`h-14 bg-white rounded-xl px-2 py-4 my-2 ${isFocus ? 'border-[#f43439]' : ''}`}
                   placeholderClassName="text-base"
                   selectedTextClassName="text-base"
                   inputSearchClassName="h-10 text-base"
@@ -134,7 +134,7 @@ const AddTicket = ({ navigation }) => {
               <Text className="text-lg text-slate-700">Sub Product Category*</Text>
               <View>
                 <Dropdown
-                  className={`h-14 bg-white rounded-xl px-2 py-4 my-2 ${isFocus ? 'border-cyan-500' : ''}`}
+                  className={`h-14 bg-white rounded-xl px-2 py-4 my-2 ${isFocus ? 'border-[#f43439]' : ''}`}
                   placeholderClassName="text-base"
                   selectedTextClassName="text-base"
                   inputSearchClassName="h-10 text-base"
@@ -158,7 +158,7 @@ const AddTicket = ({ navigation }) => {
             </View>
             <View className="px-10">
               <View className="rounded-xl mt-4 w-100">
-                <Button title="Create Now" onPress={handleCreateTicket} />
+                <Button title="Create Now" onPress={handleCreateTicket}  color="#f43439"/>
               </View>
             </View>
           </ScrollView>

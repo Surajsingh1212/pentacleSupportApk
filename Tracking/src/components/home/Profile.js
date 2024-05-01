@@ -7,7 +7,7 @@ const Profile = ({ navigation }) => {
   return (
     <View className="flex-1">
       <CustomHeader title="Profile" navigation={navigation} notificationCount={4} />
-      <View className="flex flex-1 justify-center items-center bg-cyan-500">
+      <View className="flex flex-1 justify-center items-center bg-[#c7c5c5]">
         <View className="relative flex justify-center items-center z-40">
           <Image
             source={require("../../assets/avatar/avatar.jpg")}
